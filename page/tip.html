@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=320,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <title>数据请求</title>
+    <style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    li,
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: inherit;
+    }
+    body {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .ui-tab {
+        height: 10px;
+    }
+    </style>
+    <script>
+    (function(win) {
+        var doc = win.document,
+            scale = 16,
+            $body = doc.getElementsByTagName('body')[0],
+            $html = doc.getElementsByTagName('html')[0],
+            windowWidth = doc.documentElement && doc.documentElement.clientWidth || doc.body && doc.body.clientWidth || win.innerWidth,
+            windowHeight = doc.documentElement && doc.documentElement.clientHeight || doc.body && doc.body.clientHeight || win.innerHeight,
+            deviceAgent = navigator.userAgent.toLowerCase();
+            if ( deviceAgent.match( /(iphone|ipod|ipad|android|windows\s*phone|symbianos)/ ) ) {
+                try{
+                   // if ( window.localStorage && window.localStorage.getItem('scale_greatboy') ) {
+                    //    scale = window.localStorage.getItem('scale_greatboy');
+                   // } else {
+                        scale = parseFloat(windowWidth * 16 / (16*3.2));
+                        if (windowHeight > windowWidth) {
+                            //window.localStorage && window.localStorage.setItem('scale_greatboy', scale);
+                        }
+                   // }
+                }catch(e){
+
+                }
+                if (deviceAgent.match(/android\s*2.3/) && deviceAgent.match(/micromessenger/)) {
+                    scale = 16;
+                }
+                $html.style.fontSize = scale + 'px';
+                $html.style.display = 'block';
+            } else {
+                window.onresize = function(){
+                    windowWidth = doc.documentElement && doc.documentElement.clientWidth || doc.body.clientWidth || win.innerWidth;
+                    scale = parseFloat(windowWidth * 16 / (16*3.2));
+                    if(scale > 150){
+                        scale = 150;
+                    }
+                    $html.style.fontSize = scale + 'px';
+                };
+                scale = parseFloat(windowWidth * 16 / (16*3.2));
+                
+                if(scale > 150){
+                    scale = 150;
+                }
+                
+                $html.style.fontSize = scale + 'px';
+                $html.style.display = 'block';
+            }
+            window.onload = function(){
+                $body = document.getElementsByTagName('body')[0],
+                $body.style.width = '3.2rem';
+                $body.style.fontSize = '0.14rem';
+            }
+        })(window);
+    </script>
+</head>
+
+<body>
+    <APP></APP>
+    <script src="../dist/tip.bundle.js"></script>
+</body>
+
+</html>
