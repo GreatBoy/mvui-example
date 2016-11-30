@@ -1,7 +1,7 @@
 
 <template>
 <div class="home">
-    <Hometitle :icon="false"><img class="home-img" src="/static/logo.png"/></Hometitle>
+    <Hometitle :icon="false"><img class="home-img" src="/mvui-example/static/logo.png"/></Hometitle>
     <div class="home-list">
         <div class="home-list-title">base</div>
         <ul>
