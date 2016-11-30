@@ -8379,19 +8379,19 @@ webpackJsonp([0],[
 	//             <div class="wrapper-area-content" id="parent">
 	//                 <Slider direction="y">
 	//                     <li>
-	//                         <img src="/static/click1.jpg"/>
+	//                         <img src="/mvui-example/static/click1.jpg"/>
 	//                         <span>文案1</span>
 	//                     </li>
 	//                     <li>
-	//                         <img src="/static/click1.jpg"/>
+	//                         <img src="/mvui-example/static/click1.jpg"/>
 	//                         <span>文案2</span>
 	//                     </li>
 	//                     <li>
-	//                         <img src="/static/click1.jpg"/>
+	//                         <img src="/mvui-example/static/click1.jpg"/>
 	//                         <span>文案3</span>
 	//                     </li>
 	//                     <li>
-	//                         <img src="/static/click1.jpg"/>
+	//                         <img src="/mvui-example/static/click1.jpg"/>
 	//                         <span>文案4</span>
 	//                     </li>
 	//                 </Slider>
@@ -8440,7 +8440,7 @@ webpackJsonp([0],[
 /* 363 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"body-wrapper\">\n    <Hometitle>Slider</Hometitle>\n    <div class=\"wrapper-example wrapper-example-slider-y\">\n        <div class=\"wrapper-area-content\" id=\"parent\">\n            <Slider direction=\"y\">\n                <li>\n                    <img src=\"/static/click1.jpg\"/>\n                    <span>文案1</span>\n                </li>\n                <li>\n                    <img src=\"/static/click1.jpg\"/>\n                    <span>文案2</span>\n                </li>\n                <li>\n                    <img src=\"/static/click1.jpg\"/>\n                    <span>文案3</span>\n                </li>\n                <li>\n                    <img src=\"/static/click1.jpg\"/>\n                    <span>文案4</span>\n                </li>\n            </Slider>\n        </div>\n    </div>\n";
+	module.exports = "\n<div class=\"body-wrapper\">\n    <Hometitle>Slider</Hometitle>\n    <div class=\"wrapper-example wrapper-example-slider-y\">\n        <div class=\"wrapper-area-content\" id=\"parent\">\n            <Slider direction=\"y\">\n                <li>\n                    <img src=\"/mvui-example/static/click1.jpg\"/>\n                    <span>文案1</span>\n                </li>\n                <li>\n                    <img src=\"/mvui-example/static/click1.jpg\"/>\n                    <span>文案2</span>\n                </li>\n                <li>\n                    <img src=\"/mvui-example/static/click1.jpg\"/>\n                    <span>文案3</span>\n                </li>\n                <li>\n                    <img src=\"/mvui-example/static/click1.jpg\"/>\n                    <span>文案4</span>\n                </li>\n            </Slider>\n        </div>\n    </div>\n";
 
 /***/ },
 /* 364 */
@@ -8543,19 +8543,19 @@ webpackJsonp([0],[
 	//             <div class="wrapper-area-content" id="parent">
 	//                 <Slider>
 	//                     <li>
-	//                         <img src="/static/click1.jpg"/>
+	//                         <img src="/mvui-example/static/click1.jpg"/>
 	//                         <span>文案1</span>
 	//                     </li>
 	//                     <li>
-	//                         <img src="/static/click1.jpg"/>
+	//                         <img src="/mvui-example/static/click1.jpg"/>
 	//                         <span>文案2</span>
 	//                     </li>
 	//                     <li>
-	//                         <img src="/static/click1.jpg"/>
+	//                         <img src="/mvui-example/static/click1.jpg"/>
 	//                         <span>文案3</span>
 	//                     </li>
 	//                     <li>
-	//                         <img src="/static/click1.jpg"/>
+	//                         <img src="/mvui-example/static/click1.jpg"/>
 	//                         <span>文案4</span>
 	//                     </li>
 	//                 </Slider>
@@ -8602,7 +8602,7 @@ webpackJsonp([0],[
 /* 368 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"body-wrapper\">\n    <Hometitle>Slider</Hometitle>\n    <div class=\"wrapper-example wrapper-example-slider-x\">\n        <div class=\"wrapper-area-content\" id=\"parent\">\n            <Slider>\n                <li>\n                    <img src=\"/static/click1.jpg\"/>\n                    <span>文案1</span>\n                </li>\n                <li>\n                    <img src=\"/static/click1.jpg\"/>\n                    <span>文案2</span>\n                </li>\n                <li>\n                    <img src=\"/static/click1.jpg\"/>\n                    <span>文案3</span>\n                </li>\n                <li>\n                    <img src=\"/static/click1.jpg\"/>\n                    <span>文案4</span>\n                </li>\n            </Slider>\n        </div>\n    </div>\n";
+	module.exports = "\n<div class=\"body-wrapper\">\n    <Hometitle>Slider</Hometitle>\n    <div class=\"wrapper-example wrapper-example-slider-x\">\n        <div class=\"wrapper-area-content\" id=\"parent\">\n            <Slider>\n                <li>\n                    <img src=\"/mvui-example/static/click1.jpg\"/>\n                    <span>文案1</span>\n                </li>\n                <li>\n                    <img src=\"/mvui-example/static/click1.jpg\"/>\n                    <span>文案2</span>\n                </li>\n                <li>\n                    <img src=\"/mvui-example/static/click1.jpg\"/>\n                    <span>文案3</span>\n                </li>\n                <li>\n                    <img src=\"/mvui-example/static/click1.jpg\"/>\n                    <span>文案4</span>\n                </li>\n            </Slider>\n        </div>\n    </div>\n";
 
 /***/ },
 /* 369 */

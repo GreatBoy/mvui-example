@@ -5,19 +5,19 @@
             <div class="wrapper-area-content" id="parent">
                 <Slider>
                     <li>
-                        <img src="/static/click1.jpg"/>
+                        <img src="/mvui-example/static/click1.jpg"/>
                         <span>文案1</span>
                     </li>
                     <li>
-                        <img src="/static/click1.jpg"/>
+                        <img src="/mvui-example/static/click1.jpg"/>
                         <span>文案2</span>
                     </li>
                     <li>
-                        <img src="/static/click1.jpg"/>
+                        <img src="/mvui-example/static/click1.jpg"/>
                         <span>文案3</span>
                     </li>
                     <li>
-                        <img src="/static/click1.jpg"/>
+                        <img src="/mvui-example/static/click1.jpg"/>
                         <span>文案4</span>
                     </li>
                 </Slider>
