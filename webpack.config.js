@@ -33,7 +33,13 @@ module.exports = {
             }, {
                 test: /node_modules\/iview\/.*?js$/,
                 loader: 'babel'
-            }, {
+            }, 
+            { 
+                test: /\.js$/, 
+                loader: 'babel', 
+                exclude: /node_modules/ 
+            },
+            {
                 test: /\.less$/,
                 loader: "style!css!less"
             }, {
